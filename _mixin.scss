@@ -1,0 +1,21 @@
+// aprasomas stilius
+@mixin alignContainer() {
+    display: grid;
+  padding: 10px;
+  height: 100vh;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  overflow: auto;
+  position: relative;
+}
+@mixin imgAlign()
+ {
+   grid-column: 1/2;
+   grid-row: 1/2;
+}
+@mixin imgSize {
+    height: 100px;
+    width: 200px;
+    
+}

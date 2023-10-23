@@ -1,0 +1,7 @@
+@use "./index" as *;
+.container{
+    @include alignContainer
+}
+.pirma{
+    @include imgAlign
+}
